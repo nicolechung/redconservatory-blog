@@ -6,6 +6,25 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    "body": {
+      fontFamily: `Roboto, sans`
+    },
+    "h1": {
+      fontFamily: `Amatic SC, sans`,
+      color: `#e02222`,
+    },
+    "h2": {
+      fontFamily: `Amatic SC, sans`,
+      color: `#e02222`,
+    },
+    "h3": {
+      fontFamily: `Amatic SC, sans`,
+      color: `#e02222`
+    },
+    "h4": {
+      fontFamily: `Amatic SC, sans`,
+      color: `#e02222`
+    }
   }
 }
 

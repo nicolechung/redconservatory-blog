@@ -5,6 +5,8 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const aboutPage = path.resolve(`./src/templates/about-page.js`)
+  const speakingPage = path.resolve(`./src/templates/speaking-page.js`)
   const result = await graphql(
     `
       {
@@ -19,6 +21,7 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                type
               }
             }
           }
@@ -32,19 +35,38 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
-
-  posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
-
+  const about = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.type === 'blog')
+ 
+  about.forEach((post, index) => {
     createPage({
       path: post.node.fields.slug,
       component: blogPost,
       context: {
+        slug: post.node.fields.slug
+      },
+    })
+  })
+
+  // Create about page
+  const speaking = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.type === 'about')
+  speaking.forEach((post, index) => {
+    createPage({
+      path: post.node.fields.slug,
+      component: aboutPage,
+      context: {
+        slug: post.node.fields.slug
+      },
+    })
+  })
+
+  // Create about page
+  const posts = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.type === 'speaking')
+  posts.forEach((post, index) => {
+    createPage({
+      path: post.node.fields.slug,
+      component: speakingPage,
+      context: {
         slug: post.node.fields.slug,
-        previous,
-        next,
       },
     })
   })

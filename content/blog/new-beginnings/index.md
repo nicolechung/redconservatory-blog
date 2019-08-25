@@ -2,6 +2,7 @@
 title: New Beginnings
 date: "2015-05-28T22:40:32.169Z"
 description: Seo Description
+type: blog
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

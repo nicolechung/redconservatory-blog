@@ -18,6 +18,7 @@ class BlogIndex extends React.Component {
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+          if (node.frontmatter.type !== 'blog') return null
           return (
             <article key={node.fields.slug}>
               <header>
@@ -67,6 +68,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            type
           }
         }
       }
