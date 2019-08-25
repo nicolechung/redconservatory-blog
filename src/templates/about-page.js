@@ -24,7 +24,8 @@ class AboutPageTemplate extends React.Component {
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
-                fontFamily: `Amatic Sc, sans`
+                fontFamily: `Amatic Sc, sans`,
+                fontSize: '40px'
               }}
             >
               {post.frontmatter.title}

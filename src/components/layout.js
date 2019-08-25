@@ -11,7 +11,7 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <><h1
           style={{
             ...scale(1.5),
             fontFamily: `Amatic SC, sans-serif`,
@@ -30,10 +30,14 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h1>
+        <div>
+        <Link style={{ color: `#e02222`, marginRight: `20px`}} to="about">About</Link> | <Link style={{ color: `#e02222`, marginLeft: `20px` , marginRight: `20px` }} to="speaking">Speaking</Link>
+        </div>
+        </>
       )
     } else {
       header = (
-        <h3
+        <h1
           style={{
             fontFamily: `Amatic SC, sans-serif`,
             marginTop: 0,
@@ -49,7 +53,7 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h3>
+        </h1>
       )
     }
     return (
@@ -64,11 +68,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-
-          <p><Link to="about">About</Link></p>
+          © {new Date().getFullYear()}  <Link style={{ color: `#e02222`, marginLeft: `20px` , marginRight: `20px`}} to="about">About</Link> | <Link style={{ color: `#e02222`, marginLeft: `20px` , marginRight: `20px` }} to="speaking">Speaking</Link>
         </footer>
       </div>
     )

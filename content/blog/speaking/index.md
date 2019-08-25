@@ -4,37 +4,39 @@ date: "2015-05-01T22:12:03.284Z"
 description: Nicole Chung is a Senior Software Engineer (Frontend) at @JoinLeague. 
 type: speaking
 ---
+###Drop, September 2019
 
-##Common questions people ask me
 
-###Where are you from?
-I was born in East York, Toronto.
+###Toronto Javascript, April 2019
+Typescript in React
 
-###But I mean, where is your family from?
-Guyana.
+###Polyhack Toronto, April 2019
+Typescript in a React App
+[Watch the video](https://www.youtube.com/watch?v=CuivW4J0Quc)
 
-###No, but really, where were your parents born?
-Really. Guyana.
+###JSConf Iceland 2018
+Sharing is Caring: build a peer-to-peer network with WebRTC
+[Watch the video](https://www.youtube.com/watch?v=ZGPOQOLv1p0)
 
-###No, I mean, your grandparents?
-I'm serious now. Guyana.
+###React Conf 2017
+How to React in the Slow Lane: a lightning talk on progressive web apps
 
-###Is Guyana in Tibet?
-No, it’s in South America. But it’s culturally part of the Caribbean.
+[Watch the video](https://www.youtube.com/watch?v=pSr6sTRDdi4)
 
-###Do you speak Chinese?
-No. Many Chinese Caribbean people are looked down upon by Chinese people, this is often because we are children of Second Wives.
+###React Native Radio
+Building Progressive Web Apps using React
 
-I personally suspect that even though the Caribbean is very Christian, monogamy is not the norm. But don't tell my mother this.
+[Listen to the podcast](https://devchat.tv/react-native-radio/building-progressive-web-apps-using-react-feat-nicole-chung)
 
-###Lei ho ma?
-OMG. Please.
+###Ladies Learning Code
+Instructor: HTML and CSS for Beginners: June 10, 2017
 
-###Where did you learn to code?
+###Fluent Conf 2017
+Async in JavaScript and readability in Redux
 
-I went to school for Image Arts (Film and Video) at Ryerson, then did a course on web stuff at Centennial College where I learned HTML.
+[Watch the video](https://www.safaribooksonline.com/library/view/fluent-conference-2017/9781491985298/video311483.html)
 
-However, at the time I graduated, the market crashed so I went back to working as a production assistant/grip in the film world.
-
-Otherwise I am self-taught, which is code for “Stack Overflow” and years of freelancing. After that I started working at Nascent, where I probably learned the most to date.
+###Ladies Learning Code
+Instructor: HTML and CSS for Beginners: August 2nd, 2017
+Instructor: HTML and CSS for Beginners: October 3rd, 2017
 
