@@ -7,29 +7,32 @@ Wordpress2016.overrideThemeStyles = () => {
       boxShadow: `none`,
     },
     "body": {
-      fontFamily: `Roboto, sans`,
-      lineHeight: 1.25
+      fontFamily: `Asap, sans-serif`,
+      lineHeight: 1.25,
+      fontSize: '18px',
+      fontWeight: 400,
+      background: '#fffff0'
     },
     "h1": {
-      fontFamily: 'Roboto, sans',
+      fontFamily: `'Asap', sans-serif`,
       color: '#e02222',
     },
     "h2": {
-      fontFamily: 'Roboto, sans',
+      fontFamily: `'Asap', sans-serif`,
       color: '#e02222',
       fontWeight: 400,
     },
     "h3": {
-      fontFamily: 'Roboto, sans',
+      fontFamily:`'Asap', sans-serif`,
       color: '#e02222',
       fontWeight: 400,
       marginBottom: '8px'
     },
     "h4": {
-      fontFamily: 'Roboto, sans',
+      fontFamily: `'Asap', sans-serif`,
       color: '#e02222',
       fontWeight: 400,
-    }
+    },
   }
 }
 

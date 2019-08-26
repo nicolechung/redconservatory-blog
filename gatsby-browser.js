@@ -1,3 +1,3 @@
 // custom typefaces
-import "typeface-amatic-sc"
-import "typeface-roboto"
+import "typeface-asap"
+import "prismjs/themes/prism-okaidia.css"

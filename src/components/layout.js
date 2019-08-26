@@ -14,7 +14,7 @@ class Layout extends React.Component {
         <><h1
           style={{
             ...scale(1.5),
-            fontFamily: `Amatic SC, sans-serif`,
+            fontFamily: `Asap, sans-serif`,
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
@@ -31,16 +31,18 @@ class Layout extends React.Component {
           </Link>
         </h1>
         <div>
-        <Link style={{ color: `#e02222`, marginRight: `20px`}} to="about">About</Link> | <Link style={{ color: `#e02222`, marginLeft: `20px` , marginRight: `20px` }} to="speaking">Speaking</Link>
+        <Link style={{ color: `#e02222`, marginRight: `20px`}} to="/about">About</Link>
+        <Link style={{ color: `#e02222`, marginLeft: `20px` , marginRight: `20px` }} to="/speaking">Speaking</Link>
         </div>
         </>
       )
     } else {
       header = (
-        <h1
+        <h2
           style={{
-            fontFamily: `Amatic SC, sans-serif`,
+            fontFamily: `Asap, sans-serif`,
             marginTop: 0,
+            fontSize: '36px'
           }}
         >
           <Link
@@ -53,7 +55,7 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h1>
+        </h2>
       )
     }
     return (
@@ -68,7 +70,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}  <Link style={{ color: `#e02222`, marginLeft: `20px` , marginRight: `20px`}} to="about">About</Link> | <Link style={{ color: `#e02222`, marginLeft: `20px` , marginRight: `20px` }} to="speaking">Speaking</Link>
+          © {new Date().getFullYear()} 
         </footer>
       </div>
     )

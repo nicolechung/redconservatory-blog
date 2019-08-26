@@ -5,6 +5,8 @@ description: Nicole Chung is a Senior Software Engineer (Frontend) at @JoinLeagu
 type: about
 ---
 
+I am a senior software engineer at [@JoinLeague](https://twitter.com/JoinLeague?). Before League, I have worked on mainly frontend apps (but on occasion, iOS and Android apps). I have also led teams through a mix of planning (and - let's be honest - failing to plan), flagging risks, pair-programming, running workshops on new technologies, code reviews and tweaking our CI configuration.
+
 ##Common questions people ask me
 
 ###Where are you from?
@@ -38,5 +40,5 @@ I went to school for Image Arts (Film and Video) at Ryerson, then did a course o
 
 However, at the time I graduated, the market crashed so I went back to working as a production assistant/grip in the film world in Toronto. To clarify, I wasn't really working on the most glamourous stuff - music videos, some commericals, and the occasional daily on union sets.
 
-Otherwise I am self-taught, which is code for “Stack Overflow”, “breaking stuff”, and years of freelancing. After that I started working at Nascent, where I probably learned the most to date.
+Otherwise I am self-taught, which is code for “Stack Overflow”, and few years of freelancing. After that I started working at various product studios in Toronto, where I benefitted from lots of mentoring from tech leads who encouraged me to do talks and side projects. 
 

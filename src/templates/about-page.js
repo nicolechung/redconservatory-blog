@@ -1,17 +1,18 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import Image from "gatsby-image"
+import { rhythm } from "../utils/typography"
 
 class AboutPageTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-
+    
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -23,23 +24,28 @@ class AboutPageTemplate extends React.Component {
             <h1
               style={{
                 marginTop: rhythm(1),
-                marginBottom: 0,
-                fontFamily: `Amatic Sc, sans`,
+                marginBottom: '7px',
+                fontFamily: `Asap, sans`,
                 fontSize: '40px'
               }}
             >
               {post.frontmatter.title}
             </h1>
-            <p
-              style={{
-                ...scale(-1 / 5),
-                display: `block`,
-                marginBottom: rhythm(1),
-              }}
-            >
-              {post.frontmatter.date}
-            </p>
           </header>
+          <Image
+            fixed={this.props.data.avatar.childImageSharp.fixed}
+            alt={this.props.data.author}
+            style={{
+              marginRight: rhythm(1 / 2),
+              marginBottom: 20,
+              marginTop: 20,
+              minWidth: 50,
+              borderRadius: `100%`,
+            }}
+            imgStyle={{
+              borderRadius: `50%`,
+            }}
+          />
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
@@ -100,6 +106,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+      }
+    }
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
   }

@@ -5,17 +5,19 @@ description: Nicole Chung is a Senior Software Engineer (Frontend) at @JoinLeagu
 type: speaking
 ---
 ###Drop, September 2019
-
+Frontend Code Quality
 
 ###Toronto Javascript, April 2019
 Typescript in React
 
 ###Polyhack Toronto, April 2019
 Typescript in a React App
+
 [Watch the video](https://www.youtube.com/watch?v=CuivW4J0Quc)
 
 ###JSConf Iceland 2018
 Sharing is Caring: build a peer-to-peer network with WebRTC
+
 [Watch the video](https://www.youtube.com/watch?v=ZGPOQOLv1p0)
 
 ###React Conf 2017
@@ -37,6 +39,5 @@ Async in JavaScript and readability in Redux
 [Watch the video](https://www.safaribooksonline.com/library/view/fluent-conference-2017/9781491985298/video311483.html)
 
 ###Ladies Learning Code
-Instructor: HTML and CSS for Beginners: August 2nd, 2017
-Instructor: HTML and CSS for Beginners: October 3rd, 2017
+Instructor: HTML and CSS for Beginners: August 2nd, 2017, October 3rd, 2017
 

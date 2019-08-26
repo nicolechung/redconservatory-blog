@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 class SpeakingPageTemplate extends React.Component {
   render() {
@@ -24,20 +24,11 @@ class SpeakingPageTemplate extends React.Component {
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
-                fontFamily: `Amatic Sc, sans`
+                fontFamily: `Asap, sans`
               }}
             >
               {post.frontmatter.title}
             </h1>
-            <p
-              style={{
-                ...scale(-1 / 5),
-                display: `block`,
-                marginBottom: rhythm(1),
-              }}
-            >
-              {post.frontmatter.date}
-            </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
