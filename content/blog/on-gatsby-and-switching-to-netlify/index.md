@@ -1,7 +1,7 @@
 ---
 title: On blogging with Gatsby and switching to Netlify
 date: "2019-08-26T22:12:03.284Z"
-description: I decided I wanted to start blogging again, and I wanted to have a continuous CI for my blog.
+description: I decided I wanted to start blogging again, and I wanted to have a continuous CI for my blog. And I wanted my site to load quickly, so I tried out Gatsby + Netlify.
 type: blog
 ---
 
@@ -66,9 +66,11 @@ Tada! The deploy started right away. Then I just had to log in to my domain cont
 The UI for Netlify is a pleasure to use. At no point did I experience a "where is the setting for this" moment. There's even a spinner to let you know Netlify is busy waiting on the DNS to propagate (always the worst part of switching your domain to a new server)
 
 ### Would I do this again?
-I wouldn't describe Gatsby as **easy**, but if you know React you can get a blog up and running in hours with it (writing the blog posts is another thing altogether). If you like Markdown once you are set up Gatsby gets out of the way and you can just focus on writing.
+I wouldn't describe Gatsby as **easy**, but if you know React you can get a blog up and running in hours with it (writing the blog posts is another thing altogether). 
 
-I would definitely recommend Netlify. Right now the pricing to host a site with a custom domain is **free**(!) and it's fun to work with.
+If you like Markdown once you are set up Gatsby gets out of the way and you can just focus on writing. Also Gatsby loads your pages quite quickly.
+
+I would definitely recommend Netlify. Right now the pricing to host a site with a custom domain is **free** and it's fun to work with.
 
 
 
