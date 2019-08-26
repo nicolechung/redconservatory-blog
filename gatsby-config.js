@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `redconservatory`,
     author: `Nicole Chung`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Finding better ways to explain coding things`,
+    siteUrl: `https://redconservatory.com/`,
     social: {
       twitter: `redconservatory`,
     },
