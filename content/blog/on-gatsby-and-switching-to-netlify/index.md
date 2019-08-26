@@ -46,7 +46,7 @@ Anyhow, to revisit my **avoiding procrastination** goal, I just decided to go wi
 Maybe if I get annoyed with it at some point I will swap in another styling system I like better, and rewrite all my existing CSS. But probably not.
 
 ### Is Gatsby easier than Wordpress?
-This is about if you want to actually modify your starter template, which I did. If you just want to go with exactly what the template has you can skip all of this and just go to the Netlify part.
+Note: This is about if you want to actually modify your starter template and / or customize your blog a bit, which I did. If you just want to go with exactly what the template has, you can skip all of this and just go to the Netlify part.
 
 For some reason I thought Gatsby would have a super simple learning curve. It kind of does...if you've been a React developer for years and also have some familiarity with Wordpress. Oh, and you know a bit of NodeJS and GraphQL.
 

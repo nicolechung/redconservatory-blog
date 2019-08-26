@@ -26,7 +26,7 @@ class AboutPageTemplate extends React.Component {
                 marginTop: rhythm(1),
                 marginBottom: '7px',
                 fontFamily: `Asap, sans`,
-                fontSize: '40px'
+                fontSize: rhythm(1.2),
               }}
             >
               {post.frontmatter.title}

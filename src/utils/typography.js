@@ -25,13 +25,15 @@ Wordpress2016.overrideThemeStyles = () => {
     "h3": {
       fontFamily:`'Asap', sans-serif`,
       color: '#e02222',
-      fontWeight: 400,
-      marginBottom: '8px'
+      fontWeight: 700,
+      marginBottom: '8px',
+      fontSize: typography.scale(3/4)
     },
     "h4": {
       fontFamily: `'Asap', sans-serif`,
       color: '#e02222',
       fontWeight: 400,
+      fontSize: typography.scale(3/4)
     },
   }
 }

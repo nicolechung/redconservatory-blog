@@ -24,7 +24,8 @@ class SpeakingPageTemplate extends React.Component {
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
-                fontFamily: `Asap, sans`
+                fontFamily: `Asap, sans`,
+                fontSize: rhythm(1.2)
               }}
             >
               {post.frontmatter.title}
