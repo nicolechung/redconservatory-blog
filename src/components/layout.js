@@ -13,10 +13,10 @@ class Layout extends React.Component {
       header = (
         <><h1
           style={{
-            ...scale(1.5),
             fontFamily: `Asap, sans-serif`,
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            fontSize: '50px'
           }}
         >
           <Link
