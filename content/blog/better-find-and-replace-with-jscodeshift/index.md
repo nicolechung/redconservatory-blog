@@ -1,6 +1,6 @@
 ---
 title: Better find and replace with jscodeshift
-date: "2019-08-27T22:12:03.284Z"
+date: "2019-09-01T11:12:03.284Z"
 description: It's hard to find and replace in JSX, but this is made a lot easier by using tools like jscodeshift. How to write your own codemod to change your JSX.
 type: blog
 ---
