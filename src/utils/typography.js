@@ -8,10 +8,11 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     "body": {
       fontFamily: `Asap, sans-serif`,
-      lineHeight: 1.25,
+      lineHeight: 1.5,
       fontSize: '18px',
       fontWeight: 400,
-      background: '#fffff0'
+      background: '#fffff0',
+      letterSpacing: '-0.084px',
     },
     "h1": {
       fontFamily: `'Asap', sans-serif`,

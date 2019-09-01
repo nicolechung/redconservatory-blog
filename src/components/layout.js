@@ -16,7 +16,7 @@ class Layout extends React.Component {
             fontFamily: `Asap, sans-serif`,
             marginBottom: rhythm(1.5),
             marginTop: 0,
-            fontSize: '50px'
+            fontSize: '36px'
           }}
         >
           <Link
@@ -42,6 +42,7 @@ class Layout extends React.Component {
           style={{
             fontFamily: `Asap, sans-serif`,
             marginTop: 0,
+            fontWeight: 'bold',
             fontSize: '36px'
           }}
         >
