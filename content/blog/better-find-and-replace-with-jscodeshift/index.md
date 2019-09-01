@@ -5,9 +5,9 @@ description: It's hard to find and replace in JSX, but this is made a lot easier
 type: blog
 ---
 
-A few years back I got really interested in codemods and learning more about AST (Abstract syntax trees). Some really great resources are Vaidehi Joshi's [Leveling Up One’s Parsing Game With ASTs](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) and [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler).
+A few years back I got interested in codemods and learning more about AST (Abstract syntax trees). Articles like Vaidehi Joshi's [Leveling Up One’s Parsing Game With ASTs](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) and [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) were inspiring to me.
 
-Anyhow, in my day to day work, I couldn't see the immediate use of learning about ASTs and learning to write my own codemod seemed hopelessly out of reach to me. 
+In my day to day work, I couldn’t see the immediate use of learning about ASTs. Learning to write my own codemod seemed hopelessly out of reach to me.
 
 This changed a few weeks ago when I discovered [Ast Explorer](https://astexplorer.net/). It's an online REPL where you can try out using jscodeshift and other transformers like Babel and eslint.
 
@@ -22,7 +22,7 @@ It's easier to show you in a picture, so here:
 
 At the top of the tree is **the program**. The program contains **the body**, and inside of the body are many **expression statements**.
 
-In my particular case, there are many **JSX Elements**, which usually have **opening** and **closing** elements. Each element has attributes (React props) and **children**. In the example above, the children is just dummy text (text is known as a **Literal**), but children can also be other **JSX Elements**.
+In the example above, there is a **JSX Element**. This has which usually have **opening** and **closing** elements. Each element has **attributes** (React props) and **children**. Children is just dummy text (text is known as a **Literal**), but children can also be other JSX Elements.
 ### What is jscodeshift
 jscodeshift is a toolkit for modifying code (aka running codemods).
 
