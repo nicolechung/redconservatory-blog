@@ -117,7 +117,7 @@ jscodeshift wraps nodes in an abstract syntax tree with node paths, which are ju
 
 Using jscodeshift is more about having a mental model of the abstract syntax tree of your code (draw a picture if you need to! It helps!) and then using familiar methods like **find**, **filter**, **forEach** and **replace** to change what you want to change.
 
-For the final complete example of what I did, [check out this link](https://astexplorer.net/#/gist/f98a6e68eb196e7161a5a2c096c035e5/9df530e022ecc48ea7d0561ae5dec3b0dc4c3ab0)
+For the complete code in this post, [check out this gist](https://astexplorer.net/#/gist/f98a6e68eb196e7161a5a2c096c035e5/9df530e022ecc48ea7d0561ae5dec3b0dc4c3ab0)
 
 
 
