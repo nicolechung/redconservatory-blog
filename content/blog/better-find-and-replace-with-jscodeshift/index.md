@@ -23,18 +23,20 @@ It's easier to show you in a picture, so here:
 At the top of the tree is **the program**. The program contains **the body**, and inside of the body are many **expression statements**.
 
 In the example above, there is a **JSX Element**. This has which usually have **opening** and **closing** elements. Each element has **attributes** (React props) and **children**. Children is just dummy text (text is known as a **Literal**), but children can also be other JSX Elements.
-### What is jscodeshift?
+### What is jscodeshift?ga
 jscodeshift is a toolkit for modifying code (aka running codemods).
 
 ### Why does all of this matter anyways?
-Codemods really shine when you need to do find-and-replace of elements that are similar, but slightly different. 
+Codemods really shine when you need to do find-and-replace of elements that are similar, but different enough that doing a regular find-and-replace or a regex find-and-replace won't solve the problem you are having.
 
 As an example, say I want to change every instance of **align** to **alignContent**, but only in the Flex elements below:
 
 ```HTML
 <Flex align="center">Loreum Ipsum</Flex>
-<Box align="center">This is a box!</Box>
-<Flex marginTop="some-space" align="center">Loreum more ipsum</Flex>
+    <Box align="center">This is a box!</Box>
+<Flex marginTop="some-space" align="center">
+    Loreum more ipsum
+</Flex>
 ```
 
 If you have ever done a find-and-replace, either with or without regex, you can see that this is difficult. 
