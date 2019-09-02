@@ -58,6 +58,11 @@ Next, set the parser to something that accepts **jsx**, like **babel** or **type
 Below you can see the setup of what goes where:
 
 ![Where to put your jscodeshift code](./astexplorer.png)
+
+1. Code you want to change goes in the upper left quadrant.
+2. The code you write with jscodeshift goes in the lower left quadrant.
+3. If you want to peek at your AST structure, you can see it in the top right quadrant. **Protip**: clicking on your code in the upper left quadrant will highlight the corresponding node in the AST on the right!
+4. The resulting code is in the lower right quadrant.
 ### Setting up jscodeshift
 
 The base setup looks like this:
