@@ -23,7 +23,7 @@ It's easier to show you in a picture, so here:
 At the top of the tree is **the program**. The program contains **the body**, and inside of the body are many **expression statements**.
 
 In the example above, there is a **JSX Element**. This has which usually have **opening** and **closing** elements. Each element has **attributes** (React props) and **children**. Children is just dummy text (text is known as a **Literal**), but children can also be other JSX Elements.
-### What is jscodeshift?ga
+### What is jscodeshift?
 jscodeshift is a toolkit for modifying code (aka running codemods).
 
 ### Why does all of this matter anyways?
