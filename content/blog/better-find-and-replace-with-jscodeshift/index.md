@@ -11,7 +11,7 @@ In my day to day work, I couldn’t see the immediate use of learning about ASTs
 
 This changed a few weeks ago when I discovered [Ast Explorer](https://astexplorer.net/). It's an online REPL where you can try out using jscodeshift and other transformers like Babel and eslint.
 
-### What is a codemod
+### What is a codemod?
 A codemod is a tool to change your code. 
 ### What is an AST
 An Abstract syntax tree is just your code broken down into a tree structure. In Javascript, this means an object with other objects and arrays nested inside.
@@ -23,7 +23,7 @@ It's easier to show you in a picture, so here:
 At the top of the tree is **the program**. The program contains **the body**, and inside of the body are many **expression statements**.
 
 In the example above, there is a **JSX Element**. This has which usually have **opening** and **closing** elements. Each element has **attributes** (React props) and **children**. Children is just dummy text (text is known as a **Literal**), but children can also be other JSX Elements.
-### What is jscodeshift
+### What is jscodeshift?
 jscodeshift is a toolkit for modifying code (aka running codemods).
 
 ### Why does all of this matter anyways?
