@@ -34,8 +34,8 @@ If you have a nicely styled toggle switch, it should be built with a checkbox an
 ### Both radio buttons and checkboxes have a checked value
 To mark either radio buttons and checked boxes as checked, there is an attribute called **checked**.
 
-### Name attributes mean different things in radios versus checkboxes
-Because you can only choose a single option in a group of radio buttons, the name for all of the radio inputs are the same - it is the name of the group.
+### Name attributes mean different things in groups versus single items
+You can have groups of radio buttons, and groups of checkboxes. To indicate something is a group, use the same **name** for each item:
 
 ```HTML
 <input type="radio" name="astrology" value="taurus"><label>Taurus</label>
@@ -43,7 +43,7 @@ Because you can only choose a single option in a group of radio buttons, the nam
 <input type="radio" name="astrology" value="cancer"><label>Cancer</label>
 ```
 
-Checkboxes, however, are not necessarily considered part of a group, so their name is often the name you pass back to the server:
+For non-grouped checkboxes or radio buttons, just have unique names.
 
 ```HTML
 <input type="checkbox" name="taurus"><label>Taurus</label>
