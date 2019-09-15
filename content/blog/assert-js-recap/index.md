@@ -24,13 +24,13 @@ Some notable ones are **Flexible test** which is conditionally reusing the same 
 
 Another interesting one was **Mystery Guest** which is a fun way of saying that your fixtures / test data don't make sense to anyone who is not familiar with how your feature works. Ways around this include having specific fixtures (**Fresh fixtures**) for each test, or, in the case of very large fixtures, using a **creation method** which displays the specific data used in the particular test.
 
-Next up was [Carolina Pinzon](https://www.assertjs.com/speakers#carolina) who talked about writing tests in an environment where library support is limited. Carolina works on Dapper, a smart contract Ethereum wallet built as a Chrome extension. Currently there are no ways to test Chrome extensions in Cypress and her team was tasked with writing workarounds for this. 
+Next up was [Carolina Pinzon](https://www.assertjs.com/speakers#carolina) who talked about writing tests in an environment where library support is limited. Carolina works on Dapper, a smart contract Ethereum wallet built as a Chrome extension. Currently there are no ways to test Chrome extensions in Cypress and her team was tasked with writing workarounds for this. She also talked about having a local blockchain for testing. While she raised some interesting points, it seems like her talk was so complicated it could have gone over a few talks (testing extensions, testing blockchain, testing for security vulnerabilities).
 
 ## Lunch Break
 
 Following a lunch break where I got to catch up with a bunch of programmers from my old workplace, [Ryan Marsh](https://www.assertjs.com/speakers#ryan) gave a really great talk about forming habits, in this case, forming the habit of being a TDD developer. He explained that TDD creates a tight feedback loop which is very pleasant for the development experience, and he presented a method to break the habit of NOT writing tests. I don't want to give away the secret, I recommended watching the talk online when it's posted.
 
-Following this were some lightning talks. [Isaac Z. Schulueter](https://www.assertjs.com/speakers#isaac) gave a talk on 99% test coverage. This talk seemed to bit a bit about modifying your testing config to cheat coverage that wasn't necessary. [Clair So](https://www.assertjs.com/speakers#clare) presented a very worthwhile comparison between Selenium, Puppeteer and Cypress. [Colin Igrig](https://www.assertjs.com/speakers#colin) presented a talk about **Tests > types**. For some reason his talk covered the downsides of typed languages like Typescript, but did not talk about testing as much.
+Following this were some lightning talks. [Isaac Z. Schulueter](https://www.assertjs.com/speakers#isaac) gave a talk on 99% test coverage. This talk seemed to be a bit about modifying your testing config to cheat coverage that wasn't necessary. [Clair So](https://www.assertjs.com/speakers#clare) presented a very worthwhile comparison between Selenium, Puppeteer and Cypress. [Colin Igrig](https://www.assertjs.com/speakers#colin) presented a talk about **Tests > types**. For some reason his talk covered the downsides of typed languages like Typescript, but did not talk about testing as much.
 
 ## Afternoon break
 
@@ -46,6 +46,8 @@ Following this talk, [Michael Shilman](https://www.assertjs.com/speakers#michael
 For people who have been testing for a bit of time, and are curious about how to write better tests, definitely watch [Josh Justice's talk](https://www.assertjs.com/speakers#josh). While some of the techniques caused a lot of debate on the breaks, there were a lot of points worth thinking about, such as how people not familiar with your code will read your tests. Similarly, [Jason Palmer's](https://www.assertjs.com/speakers#jason) talk about test flakiness will resonate with anyone who has had frustrations with making tests pass consistently (which I am sure is pretty much anyone who has written a frontend test).
 
 Is it worth going to a conference that revolves entirely around testing? The answer is YES. Testing on the frontend is still evolving and very tricky, and all of these talks addressed this in a way that was engaging and useful.
+
+I recommend watching the talks when they come online, they are all quite short and very engaging.
 
 
 
