@@ -7,7 +7,7 @@ type: blog
 
 This past Thursday, I attended [AssertJS](https://www.assertjs.com/), a conference held in Toronto on the topic of Javascript testing. 
 
-I found overall that all the talks were of the right length (below 30 minutes) and on topics very relevant to what I do in my day work on the frontend.
+I found overall that all the talks were of the right length (most talks were well under 25 minutes) and on topics very relevant to what I do in my day work on the frontend.
 
 Below is a recap of what the talks were about, in thanks part to Ruhee Dewji (who had the sense to take notes).
 
