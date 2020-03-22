@@ -25,6 +25,15 @@ const Button: React.FunctionComponent<ButtonProps> = props => (
 ```
 
 ![See how hinting works](./hinting.png)
+
+<iframe
+     src="https://codesandbox.io/embed/hintingwithtype-r3rk2?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="hinting_with_type"
+     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+   ></iframe>
+   
 Note: the red underline goes away when you actually pick an option.
 
 Using the `|` union operator will allow `red`, `blue`, or `green` but not say, `yellow` or `purple`.
