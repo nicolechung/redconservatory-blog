@@ -27,7 +27,7 @@ const Button: React.FunctionComponent<ButtonProps> = props => (
 ![See how hinting works](./hinting.png)
 
 <iframe
-     src="https://codesandbox.io/embed/hintingwithtype-r3rk2?fontsize=14&hidenavigation=1&theme=dark"
+     src="https://codesandbox.io/embed/hintingwithtype-r3rk2?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=editor"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="hinting_with_type"
      allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
@@ -69,7 +69,7 @@ The resulting intellisense hinting:
 ![See the role hinting](role-colors.png)
 
 <iframe
-     src="https://codesandbox.io/embed/typehintingstyledsystem-4mxl8?fontsize=14&hidenavigation=1&theme=dark"
+     src="https://codesandbox.io/embed/typehintingstyledsystem-4mxl8?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=editor"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="type_hinting_styled_system"
      allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
