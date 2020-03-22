@@ -1,7 +1,7 @@
 ---
 title: Using Typescript for themed components
 date: "2020-03-22"
-description: How to make intellisense to improve developer experience
+description: How to use typescript to hint your theme values, for example colour or sizes
 type: blog
 ---
 
