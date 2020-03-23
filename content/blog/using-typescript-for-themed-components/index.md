@@ -20,10 +20,9 @@ const Button: React.FunctionComponent<ButtonProps> = props => (
 ```
 
 ![See how hinting works](./hinting.png)
+<small>Note: the red underline goes away when you actually pick an option.</small>
 
 [![Edit hinting_with_type](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/hintingwithtype-r3rk2?fontsize=14&hidenavigation=1&theme=dark)
-
-Note: the red underline goes away when you actually pick an option.
 
 Using the **|** union operator will allow **red**, **blue**, or **green** but not say, **yellow** or **purple**.
 
