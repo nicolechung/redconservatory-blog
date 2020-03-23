@@ -12,7 +12,7 @@ class AboutPageTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -21,16 +21,7 @@ class AboutPageTemplate extends React.Component {
         />
         <article>
           <header>
-            <h1
-              style={{
-                marginTop: rhythm(1),
-                marginBottom: '7px',
-                fontFamily: `Asap, sans`,
-                fontSize: rhythm(1.2),
-              }}
-            >
-              {post.frontmatter.title}
-            </h1>
+            <h1>{post.frontmatter.title}</h1>
           </header>
           <Image
             fixed={this.props.data.avatar.childImageSharp.fixed}

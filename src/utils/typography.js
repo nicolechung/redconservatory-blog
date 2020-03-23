@@ -1,47 +1,7 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import funstonTheme from "typography-theme-funston"
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
-    },
-    "body": {
-      fontFamily: `Asap, sans-serif`,
-      lineHeight: 1.5,
-      fontSize: '18px',
-      fontWeight: 400,
-      background: '#fffff0',
-      letterSpacing: '-0.084px',
-    },
-    "h1": {
-      fontFamily: `'Asap', sans-serif`,
-      color: '#e02222',
-    },
-    "h2": {
-      fontFamily: `'Asap', sans-serif`,
-      color: '#e02222',
-      fontWeight: 400,
-    },
-    "h3": {
-      fontFamily:`'Asap', sans-serif`,
-      color: '#e02222',
-      fontWeight: 700,
-      marginBottom: '8px',
-      fontSize: typography.scale(3/4)
-    },
-    "h4": {
-      fontFamily: `'Asap', sans-serif`,
-      color: '#e02222',
-      fontWeight: 400,
-      fontSize: typography.scale(3/4)
-    },
-  }
-}
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+const typography = new Typography(funstonTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

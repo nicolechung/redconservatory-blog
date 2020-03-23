@@ -56,7 +56,8 @@ const Bio = () => {
       <p>
         <strong>{author}</strong> lives and works in Toronto.
         {` `}
-        When she is not working she mostly listens to her friends telling absurd stories.
+        When she is not working she mostly listens to her friends telling absurd
+        stories.
       </p>
     </div>
   )

@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm } from "../utils/typography"
+import "./layout.css"
 
 class Layout extends React.Component {
   render() {
@@ -11,41 +12,38 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <><h1
-          style={{
-            fontFamily: `Asap, sans-serif`,
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-            fontSize: '36px'
-          }}
-        >
-          <Link
+        <>
+          <h1>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h1>
+          <div
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              marginBottom: rhythm(1),
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h1>
-        <div>
-        <Link style={{ color: `#e02222`, marginRight: `20px`}} to="/about">about</Link>
-        <Link style={{ color: `#e02222`, marginLeft: `20px` , marginRight: `20px` }} to="/speaking">speaking</Link>
-        </div>
+            <Link style={{ marginRight: `20px` }} to="/about">
+              about
+            </Link>
+            <Link
+              style={{ marginLeft: `20px`, marginRight: `20px` }}
+              to="/speaking"
+            >
+              speaking
+            </Link>
+          </div>
         </>
       )
     } else {
       header = (
-        <h2
-          style={{
-            fontFamily: `Asap, sans-serif`,
-            marginTop: 0,
-            fontWeight: 'bold',
-            fontSize: '36px'
-          }}
-        >
+        <h2>
           <Link
             style={{
               boxShadow: `none`,
@@ -70,9 +68,7 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()} 
-        </footer>
+        <footer>© {new Date().getFullYear()}</footer>
       </div>
     )
   }

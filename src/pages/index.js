@@ -1,9 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
+import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,21 +15,16 @@ class BlogIndex extends React.Component {
         <SEO title="All posts" />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
-          if (node.frontmatter.type !== 'blog') return null
+          if (node.frontmatter.type !== "blog") return null
           return (
             <article key={node.fields.slug}>
               <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                    fontSize: `24px`
-                  }}
-                >
-                  <Link style={{ boxShadow: `none`, color: `#e02222` }} to={node.fields.slug}>
+                <h2 style={{ marginBottom: rhythm(1 / 2) }}>
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                     {title}
                   </Link>
-                </h3>
-                <small style={{marginBottom: rhythm(1/2), display: 'block'}}>{node.frontmatter.date}</small>
+                </h2>
+                <small>{node.frontmatter.date}</small>
               </header>
               <section>
                 <p
