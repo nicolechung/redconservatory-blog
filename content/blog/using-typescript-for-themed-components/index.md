@@ -5,7 +5,7 @@ description: How to use typescript to hint your theme values, for example colour
 type: blog
 ---
 
-With Typescript the **union** type allows one to have better intellisense for the components you create.
+With Typescript the **union** type allows us to have better intellisense (hints) for the components you create.
 
 As a very simplified example:
 
