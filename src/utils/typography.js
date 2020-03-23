@@ -8,6 +8,12 @@ if (process.env.NODE_ENV !== `production`) {
   typography.injectStyles()
 }
 
+typography.overrideThemeStyles = ({ rhythm }, options) => ({
+  "a:active, a:hover": {
+    color: "#e02222",
+  },
+})
+
 export default typography
 export const rhythm = typography.rhythm
 export const scale = typography.scale

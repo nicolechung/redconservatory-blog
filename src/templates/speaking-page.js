@@ -20,16 +20,7 @@ class SpeakingPageTemplate extends React.Component {
         />
         <article>
           <header>
-            <h1
-              style={{
-                marginTop: rhythm(1),
-                marginBottom: 0,
-                fontFamily: `Asap, sans`,
-                fontSize: rhythm(1.2),
-              }}
-            >
-              {post.frontmatter.title}
-            </h1>
+            <h1>{post.frontmatter.title}</h1>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
