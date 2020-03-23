@@ -25,9 +25,9 @@ const Button: React.FunctionComponent<ButtonProps> = props => (
 
 Note: the red underline goes away when you actually pick an option.
 
-Using the `|` union operator will allow `red`, `blue`, or `green` but not say, `yellow` or `purple`.
+Using the **|** union operator will allow **red**, **blue**, or **green** but not say, **yellow** or **purple**.
 
-But what happens if we're using components that have a theme, with something like [styled-system](https://styled-system.com/) or [theme-ui](https://theme-ui.com/)? Or even, what if we want the string `red` to be something more like a role name, like `PrimaryButtonBackground`?
+But what happens if we're using components that have a theme, with something like [styled-system](https://styled-system.com/) or [theme-ui](https://theme-ui.com/)? Or even, what if we want the string **red** to be something more like a role name, like **PrimaryButtonBackground**?
 
 A theme is an object that maps names (strings) to values. In the case of colours, it's the hex codes:
 
