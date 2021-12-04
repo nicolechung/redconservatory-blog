@@ -1,8 +1,7 @@
 ---
 home: true
-heroText: Hello, I'm Nicole
-tagline: I am a frontend dev in Toronto, Ontario.
+heroText: Hello
+tagline: 
 footer: Made by nicole with ❤️
 ---
 
-Some text
