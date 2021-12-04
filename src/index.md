@@ -1,7 +1,8 @@
 ---
-title: 'redconservatory'
-description: a blog of nicole chung
-footer: Made by nicole chung with ❤️
+home: true
+heroText: Hello, I'm Nicole
+tagline: I am a frontend dev in Toronto, Ontario.
+footer: Made by nicole with ❤️
 ---
 
-Hello! again
+Some text

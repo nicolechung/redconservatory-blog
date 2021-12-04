@@ -34,7 +34,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Articles', link: '/articles' },
+      { text: 'Articles', link: '/articles/' },
     ]
   },
 
@@ -48,7 +48,6 @@ module.exports = {
       directories: [{
         id: 'article',
         dirname: '_articles',
-        path: '/',
         itemPermalink: '/articles/:slug',
         pagination: {
           lengthPerPage: 2,
