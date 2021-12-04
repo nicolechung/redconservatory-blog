@@ -17,7 +17,7 @@ Radio buttons should be used when you want the user to only be able to choose on
 
 Checkboxes should be used when you want the user to choose many options.
 
-![The difference between radios and checkboxes](./radios_and_checkboxes.gif)
+![The difference between radios and checkboxes](./images/radios_and_checkboxes.gif)
 
 This sounds simple enough, but it does happen now and then that a designer or product owner will pick the wrong form field type. For example, they will show checkboxes in a design when they really want to limit the user to being able to choose one option!
 

@@ -19,7 +19,7 @@ const Button: React.FunctionComponent<ButtonProps> = props => (
 )
 ```
 
-![See how hinting works](./hinting.png)
+![See how hinting works](./images/hinting.png)
 <small>Note: the red underline goes away when you actually pick an option.</small>
 
 [![Edit hinting_with_type](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/hintingwithtype-r3rk2?fontsize=14&hidenavigation=1&theme=dark)
@@ -57,6 +57,6 @@ const Button =
 
 The resulting intellisense hinting:
 
-![See the role hinting](role-colors.png)
+![See the role hinting](./images/role-colors.png)
 
 [![Edit type_hinting_styled_system](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/typehintingstyledsystem-4mxl8?fontsize=14&hidenavigation=1&theme=dark)

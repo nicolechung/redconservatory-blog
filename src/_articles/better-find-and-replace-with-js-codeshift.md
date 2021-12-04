@@ -18,7 +18,7 @@ An Abstract syntax tree is just your code broken down into a tree structure. In 
 
 It's easier to show you in a picture, so here:
 
-![JSX drawing](./jsx.jpg)
+![JSX drawing](./images/jsx.jpg)
 
 At the top of the tree is **the program**. The program contains **the body**, and inside of the body are many **expression statements**.
 
@@ -49,15 +49,15 @@ However, with the power of Abstract Syntax Trees and jscodeshift, modifying your
 ### Using AST explorer
 First, go to [AST explorer](https://astexplorer.net/) and set your transform to **jscodeshift**:
 
-![JSCodeshift, set the transform](./jscodeshift.png)
+![JSCodeshift, set the transform](./images/jscodeshift.png)
 
 Next, set the parser to something that accepts **jsx**, like **babel** or **typescript**:
 
-![set the parser to babel or typescript](./parser.png)
+![set the parser to babel or typescript](./images/parser.png)
 
 Below you can see the setup of what goes where:
 
-![Where to put your jscodeshift code](./astexplorer.png)
+![Where to put your jscodeshift code](./images/astexplorer.png)
 
 1. Code you want to change goes in the upper left quadrant.
 2. The code you write with jscodeshift goes in the lower left quadrant.
