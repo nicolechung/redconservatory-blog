@@ -5,6 +5,8 @@ description: Need to modify your create-react-app setup, but without making a np
 type: blog
 ---
 
+<h1>Forking react-scripts to a private repo</h1>
+
 If you use **create-react-app**, eventually you might reach a point where you want to modify the build scripts (aka webpack configs) yourself.
 
 This is often because you are using libraries that come with their own babel plugins (I'm looking at you, styled-components).

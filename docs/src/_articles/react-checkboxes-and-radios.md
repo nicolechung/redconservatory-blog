@@ -5,6 +5,8 @@ description: Use the right form field for the right data type. Know when to push
 type: blog
 ---
 
+<h1>Checkboxes and radio buttons - HTML and data types</h1>
+
 Lately (as in, for years) I have been creating and maintaining a lot of form fields in React. 
 
 Form fields, at a glance, seem easy enough, but when it comes to breaking down a design into something to build in React, it takes a lot of careful thought. 

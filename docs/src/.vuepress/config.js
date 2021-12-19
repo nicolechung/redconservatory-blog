@@ -49,6 +49,7 @@ module.exports = {
         id: 'article',
         dirname: '_articles',
         itemPermalink: '/articles/:slug',
+
         pagination: {
           lengthPerPage: 2,
         },

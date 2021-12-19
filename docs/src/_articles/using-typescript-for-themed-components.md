@@ -4,6 +4,7 @@ date: "2020-03-22"
 description: How to use typescript to hint your theme values, for example colour or sizes
 type: blog
 ---
+<h1>Using Typescript for themed components</h1>
 
 With Typescript the **union** type allows us to have better intellisense (hints) for the components you create.
 

@@ -5,6 +5,8 @@ description: I decided I wanted to start blogging again, and I wanted to have a 
 type: blog
 ---
 
+<h1>On blogging with Gatsby and switching to Netlify</h1>
+
 I've been meaning to start blogging again, mostly for personal reasons. I like writing and I like coding, and writing about coding seems like a good way to deepen my knowledge.
 
 I also wanted a site that loaded quickly, and since I write React every day at work, Gatsby seemed like a good way to go about having a **static progressive web app blog**.

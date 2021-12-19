@@ -5,6 +5,8 @@ description: It's hard to find and replace in JSX, but this is made a lot easier
 type: blog
 ---
 
+<h1>Better find and replace with jscodeshift</h1>
+
 A few years back I got interested in codemods and learning more about AST (Abstract syntax trees). Articles like Vaidehi Joshi's [Leveling Up One’s Parsing Game With ASTs](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) and [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) were inspiring to me.
 
 In my day to day work, I couldn’t see the immediate use of learning about ASTs. Learning to write my own codemod seemed hopelessly out of reach to me.
