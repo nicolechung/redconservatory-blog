@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'redconservatory',
+  title: 'nicole chung',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -33,8 +33,7 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Articles', link: '/articles/' },
+     
     ]
   },
 
