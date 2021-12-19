@@ -1198,7 +1198,7 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-blog@^1.9.4":
+"@vuepress/plugin-blog@1.9.4":
   version "1.9.4"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.9.4.tgz#34636d0387d28221c9f2564b6255786da0dd186a"
   integrity sha512-7A4Y3mYrSOUKdzsTjeVOKt0XgZ0m1Iqq7BeZn7y9YeZfDcZ4Fx6UldsPfK2+THwtYwGzQ7Not3zO8djyk7z3ew==
