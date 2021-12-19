@@ -1,7 +1,8 @@
 ---
 home: true
-heroText: Hello
+heroText: 
 tagline: 
-footer: Made by nicole with ❤️
+footer: 
 ---
 
+<ArticleIndex />
