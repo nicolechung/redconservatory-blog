@@ -20,10 +20,10 @@
   "license": "MIT",
   "homepage": "https://github.com/nicolechung/redconservatory-blog#readme",
   "dependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.9.6"
   },
   "devDependencies": {
     "@vuepress/plugin-blog": "1.9.4",
-    "vuepress": "1.8.2"
+    "vuepress": "1.9.6"
   }
 }
